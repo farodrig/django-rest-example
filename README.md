@@ -18,6 +18,7 @@ Welcome to Tutorial API. This software allows you run a simple API with basic da
 ```
 poetry install
 poetry shell
+python manage.py loaddata users posts comments
 python manage.py runserver
 ```
 
@@ -29,6 +30,6 @@ poetry run pytest .
 
 ## Run coverage
 ```
-poetry run pytest --cov-report=xml --cov=tutorial tutorial # To get the report
-poetry run pytest --cov=tutorial tutorial # Without the report
+poetry run pytest --cov-report=xml --cov=project project # To get the report
+poetry run pytest --cov=project project # Without the report
 ```

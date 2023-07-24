@@ -1,0 +1,92 @@
+[
+    {
+        "pk": 1,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Leanne Graham",
+            "username": "Bret",
+            "email": "Sincere@april.biz"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Ervin Howell",
+            "username": "Antonette",
+            "email": "Shanna@melissa.tv"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Clementine Bauch",
+            "username": "Samantha",
+            "email": "Nathan@yesenia.net"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Patricia Lebsack",
+            "username": "Karianne",
+            "email": "Julianne.OConner@kory.org"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Chelsey Dietrich",
+            "username": "Kamren",
+            "email": "Lucio_Hettinger@annie.ca"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Mrs. Dennis Schulist",
+            "username": "Leopoldo_Corkery",
+            "email": "Karley_Dach@jasper.info"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Kurtis Weissnat",
+            "username": "Elwyn.Skiles",
+            "email": "Telly.Hoeger@billy.biz"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Nicholas Runolfsdottir V",
+            "username": "Maxime_Nienow",
+            "email": "Sherwood@rosamond.me"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Glenna Reichert",
+            "username": "Delphine",
+            "email": "Chaim_McDermott@dana.io"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "users.User",
+        "fields": {
+            "first_name": "Clementina DuBuque",
+            "username": "Moriah.Stanton",
+            "email": "Rey.Padberg@karina.biz"
+        }
+    }
+]

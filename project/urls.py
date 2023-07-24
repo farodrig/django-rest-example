@@ -1,5 +1,5 @@
 """
-URL configuration for tutorial project.
+URL configuration for project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/4.2/topics/http/urls/
@@ -18,11 +18,14 @@ from django.contrib import admin
 from django.urls import include, path
 from rest_framework import routers
 
-from .users import views as users_views
+from posts.views import CommentViewSet, PostViewSet
+from users.views import GroupViewSet, UserViewSet
 
 router = routers.DefaultRouter()
-router.register(r'users', users_views.UserViewSet)
-router.register(r'groups', users_views.GroupViewSet)
+router.register(r'users', UserViewSet)
+router.register(r'groups', GroupViewSet)
+router.register(r'posts', PostViewSet)
+router.register(r'comments', CommentViewSet)
 
 # Wire up our API using automatic URL routing.
 # Additionally, we include login URLs for the browsable API.
